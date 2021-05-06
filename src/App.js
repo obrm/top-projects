@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
 import { FaAngleDoubleRight } from 'react-icons/fa'
-import data from './data'
+import projects from './data'
 
 function App() {
-  const [projects] = useState(data)
   const [value, setValue] = useState(0)
 
   const { repo, site, dates, duties, title } = projects[value]
